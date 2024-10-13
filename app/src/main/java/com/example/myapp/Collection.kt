@@ -20,7 +20,7 @@ fun ContohList() {
     mutableShapes.remove("Triangle")
     println(mutableShapes)
 
-    //Mengubah data didalam List Mutable
+    //Mengubah data di dalam List Mutable
     mutableShapes[0] = "Oval"
     println(mutableShapes)
 
