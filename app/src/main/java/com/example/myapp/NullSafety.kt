@@ -17,7 +17,7 @@ fun NullSafety() {
     }
 
     //Safe all operator
-    println(neverNull.length) //18
+    println(neverNull.length) //mencetak argumen
     println(nullable?.length) //null
 
     //notNull doesn't accept null values
@@ -28,6 +28,6 @@ fun NullSafety() {
     println(strLength(neverNull)) //18
 }
 
-fun main() {
+fun main() { //fun untuk deklarasi fungsi & main() tempat program dimulai
     NullSafety()
 }
